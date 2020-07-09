@@ -484,10 +484,10 @@ class声明类的名字，类的名字的首字母必须大写
 # print("haha\nhaha")
 
 #读
-# with open("e:\日记.txt","r",encoding="utf-8") as r:
-#     content = r.readlines()
-# for i in content:
-#     print(i)
+with open("e:\日记.txt","r",encoding="utf-8") as r:
+    content = r.readlines()
+for i in content:
+    print(i)
 
 
 
